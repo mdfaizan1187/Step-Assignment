@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class Codes_Level_3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        float celsius, fahrenheit;
+        float celsius;
+        float fahrenheit;
         System.out.println("Enter the temperature in Celsius: ");
         celsius = sc.nextFloat();
         fahrenheit = (celsius * 9/5) + 32;
