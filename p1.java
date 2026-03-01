@@ -1,18 +1,9 @@
-//Que 1. Write a Java program to perform addition, subtraction, multiplication and division of two numbers.
-import java.util.Scanner;
-public class Codes_Level_2 {
+//QUE 1. Write a program to calculate the age of a person in 2024, given their birth year.
+public class Level_One {
     public static void main(String[] args) {
-        float num_1,num_2;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the first number: ");
-        num_1 = sc.nextFloat();
-        System.out.println("Enter the second number: ");
-        num_2 = sc.nextFloat();
-        float sum = num_1 + num_2;
-        float difference = num_1 - num_2;
-        float product = num_1 * num_2;
-        float quotient = num_1 / num_2;
-        System.out.println("The addition,subtraction,multiplication,division of the two numbers is: " + sum + ", " + difference + ", " + product + ", " + quotient);
-
+        int birthyear = 2000;
+        int curryear = 2024;
+        int age = curryear - birthyear;
+        System.out.println("Harry's Age in 2024 is: " + age);
     }
 }

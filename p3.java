@@ -1,14 +1,10 @@
-//Que 3. Write a Java program to calculate the side of a square when the perimeter is given.
-import java.util.Scanner;
-public class Codes_Level_2 {
+// QUE 3. Write a program to convert a given distance in kilometers to miles. (1 mile = 1.6 kilometers)
+public class Level_One {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int per;
-        System.out.println("Enter the perimeter of squaare: ");
-        per = sc.nextInt();
-        float side = per / 4;
-        System.out.println("The side of the square is: " + side+" whose perimeter is: " + per);
-
+        double kilometers, miles;
+        kilometers = 10.8;
+        miles = (1 / 1.6) * kilometers;
+        System.out.println("The distance " + kilometers + "km in miles is: " + miles);
 
     }
 }

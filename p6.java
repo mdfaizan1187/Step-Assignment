@@ -1,16 +1,11 @@
-//Que 6. Write a Java program to calculate the quotient and remainder of two numbers.
-import java.util.Scanner;
-public class Codes_Level_2 {
+// QUE 6. Write a program to calculate the discount amount and the final discounted price of a product, given its original price and the discount percentage.
+public class Level_One {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int num_1,num_2;
-        System.out.println("Enter the first number: ");
-        num_1 = sc.nextInt();   
-        System.out.println("Enter the second number: ");
-        num_2 = sc.nextInt();
-        float quotient = num_1 / num_2;
-        float remainder = num_1 % num_2;
-        System.out.println("The quotient and remainder of the two numbers is: " + quotient + " and " + remainder);
+        int fee = 125000, discountpercent = 10, actualfee = 0;
+        int discount = (fee * discountpercent) / 100;
+        actualfee = fee - discount;
+        System.out
+                .println("The discount amount is INR " + discount + " and the final discount fee  is INR " + actualfee);
 
     }
 }
